@@ -1,0 +1,25 @@
+
+
+// Add your JavaScript code here
+document.addEventListener("DOMContentLoaded", function () {
+    // DOM is fully loaded, you can start manipulating it here
+
+    // Change the background color on button click
+    const changeColorButton = document.getElementById("changeColorButton");
+
+    if (changeColorButton) {
+        changeColorButton.addEventListener("click", function () {
+            document.body.style.backgroundColor = getRandomColor();
+        });
+    }
+
+    // Function to generate a random color
+    function getRandomColor() {
+        const letters = "0123456789ABCDEF";
+        let color = "#";
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+});

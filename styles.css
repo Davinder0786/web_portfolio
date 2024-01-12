@@ -1,0 +1,204 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    max-width: 25%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Main content styling */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+}
+
+/* Add this to your existing styles.css */
+
+/* About Me Section Styling */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-pane {
+    flex-basis: 30%; /* Adjust the width of the left pane as needed */
+}
+
+.right-pane {
+    flex-basis: 65%; /* Adjust the width of the right pane as needed */
+}
+
+/* Add this to your existing styles.css */
+
+/* Three Panes Styling */
+.three-panes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Left Pane Styling */
+.left-pane {
+    flex-basis: 25%;
+    background-color: #3498db; /* Blue color, customize as needed */
+    color: #fff; /* Text color */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-pane img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Center and Right Pane Styling */
+.center-pane,
+.right-pane {
+    flex-basis: 70%;
+}
+
+/* Center Pane Styling */
+.center-pane {
+    background-color: #2ecc71; /* Green color, customize as needed */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Right Pane Styling */
+/*
+.right-pane {
+    background-color: #e74c3c; 
+    padding: 20px;
+    box-sizing: border-box;
+}*/
+
+/* Testimonial Styling */
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* Skill Styling */
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #2ecc71; /* Green color, customize as needed */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60; /* Darker green on hover, customize as needed */
+}
